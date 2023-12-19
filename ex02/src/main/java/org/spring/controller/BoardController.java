@@ -20,6 +20,7 @@ import lombok.extern.log4j.Log4j;
 @RequestMapping("/board/*")
 @AllArgsConstructor // 기본생성자 자동 호출 -> boardService주입
 @Log4j // 깃에 올라가니...?ㅠㅠㅠ
+//이건어때..?
 public class BoardController {
 	// 의존성 주입
 	// Spring에서 인터페이스 주입시 
